@@ -118,3 +118,14 @@ document.addEventListener('DOMContentLoaded', function() {
         scissorsButton.disabled = true;
     }
 
+    // Reset game state
+    function resetGame() {
+        playerScore = 0;
+        computerScore = 0;
+        computerChoiceDisplay.innerHTML = '<h1>Computer\'s Choice</h1>'; // Reset the computer choice display
+        rockButton.disabled = false;
+        paperButton.disabled = false;
+        scissorsButton.disabled = false;
+        updateScoreboard();
+    }
+});
