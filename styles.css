@@ -48,3 +48,16 @@ img {
     margin-top: 10px; /* Add some spacing between score items */
 }
 
+#restart {
+    margin-top: 20px; /* Add some space above the restart button */
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: #d32f2f;
+}
